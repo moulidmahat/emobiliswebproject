@@ -17,3 +17,21 @@ c.configure the github on terminal
 3.git remote -v (to check wether the above origin was added)
 4.git status {red :rep. files that are not yet added to be commited] {green rep: files that are ready to be added}
 5.git add .
+   git add filename/foldername
+6.git commit -m "add commit message"
+git push origin branchname(master/main)
+
+## html
+HTML elements : an html element will defined with a start tag,some content and then an end tag
+<> content </>
+</> enclosing tag.
+2. nature of the elements ::
+    -block level element ::occupies entire width of the canvas
+    -inline element ::
+## CSS
+How to write CSS
+-Inline css :css directly written on the element : style attribute
+internal css :css script written inside the html document
+-external CSS :css script is an external linked to the html document
+-sytax
+identifier/selector

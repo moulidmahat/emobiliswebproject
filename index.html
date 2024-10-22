@@ -1,17 +1,140 @@
-<> : opening tag
-</> :closing tag
-</> :open tags /closing tag
+<!DOCTYPE html>
 <html>
-<header>
-    <title> My First Project</title>
-</header>
-<body>
-<h1> MOULID MOHAMED</h1>
-<h2>MOULID MOHAMED</h2>
-<h3>MOULID MOHAMED</h3>
-<h4>MOULID MOHAMED</h4>
-<h4>MOULID MOHAMED</h4>
-<h5>MOULID MOHAMED</h5>
-<h6>MOULID MOHAMED</h6>
+<head>
+    <meta charset="UTF-8">
+    <title>Emobilis</title>
+<!--    internal css-->
+<!--    link to the file-->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+/* css code  */
+ button {
+     background: green;
+     color: white;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 5px;
+ }
+   #btnsubmit{
+       background: blue;
+     color: white;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 5px;
+   }
+   .table{
+       width: 100%;
+       margin: 20px;
+       padding: 10px;
+       font-family: Cambria;
+   }
+   td {
+       padding: 12px;
+       text-align: center;
+       border: 1px  solid ;
+   }
+    </style>
+</head>
+<body style="background-color: black; color: white">
+<!--common text based elements-->
+<p style="font-family:'Calibri Light';font-weight :bold; color: purple" >I confirm that the implementation of this project will adhere to ethical guidelines, ensuring that any data used in
+    the development of the AI system will be handled responsibly and with full consideration of intellectual property
+    and gaming ethics. Necessary permissions will be obtained, and I will comply with applicable regulations regarding
+    AI development and data usage.
+    I understand the importance of maintaining integrity in research and academic work. Should any part of this proposal
+    be found to violate these principles, I accept full responsibility for my actions.
+</p>
+<!--ordered list-->
+<ol>
+    <li> Chelsea fc</li>
+    <li> Manchester fc</li>
+    <li> Arsenal fc</li>
+    <li> Mancity fc</li>
+</ol>
+<!--unordered list-->
+<ul>
+    <li> Chelsea fc</li>
+    <li> Manchester fc</li>
+    <li> Arsenal fc</li>
+    <li> Mancity fc</li>
+</ul>
+<!--headers-->
+<h1>heading 1</h1>
+<h6>heading 2</h6>
+<!--block quotes-->
+<blockquote>
+    This project aims to develop an AI system that can play Ms. Pac-Man by making strategic decisions such as avoiding
+    ghosts, choosing optimal paths, and collecting points efficiently. The AI will use advanced algorithms and machine
+    learning techniques to analyze the game environment, learn from its performance, and make real-time decisions to
+    improve its gameplay. Data from the AI's gameplay, including move choices and scores, will be recorded for analysis
+    and future improvements. The results can also be exported for further review. The project demonstrates how AI can
+    handle complex, real-time decision-making tasks in games, advancing the field of AI-driven gameplay strategies.
+</blockquote>
+<!--buttons-->
+<button>CLICK ME</button>
+<button id="btnsubmit"> SUBMIT </button>
+<!--IMAGE-->
+<img src="assests/palmer.jpeg"/>
+<img src="assests/palmer.jpeg" width="200" height="200" alt="some image here"/>
+<!--table-->
+<table class="table">
+    <thread>
+        <th>position</th>
+        <th>team name</th>
+        <th>points</th>
+    </thread>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Chelsea</td>
+        <td>30</td>
+    </tr>
+    <td>2</td>
+    <td>Manchester</td>
+    <td>25</td>
+    <tr>
+    <tr>
+        <td>3</td>
+        <td>Arsenal</td>
+        <td>20</td>
+    </tr>
+    </tbody>
+</table>
+<!--Form-->
+<form method="post">
+    <label>Team Name</label>
+    <input type="text" placeholder="Enter Team Name" name="team_name"/>
+    <label>Season points</label>
+    <input type="number" placeholder="Enter Points" name="team_points"/>
+    <label>Team Email</label>
+    <input type="Email" placeholder="Enter Team Email" name="team_email"/>
+    <label>Team picture</label>
+    <input type="file" name="team_pic"/>
+    <select>
+        <option value="red">Red</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+
+    </select>
+    <input type="Submit" value="Submit Team"/>
+    <input type="Reset" value="Reset"/>
+</form>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
